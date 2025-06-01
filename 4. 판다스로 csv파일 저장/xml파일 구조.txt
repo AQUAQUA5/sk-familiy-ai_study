@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"
+?><protocol>
+    <notice symbol="010140" count="35">
+        
+            <item date="20141020" no="632656" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 연결재무제표기준영업(잠정)실적(공정공시)]]></title>
+            </item>
+        
+            <item date="20141027" no="633559" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 임시주주총회 결과]]></title>
+            </item>
+        
+            <item date="20141029" no="633899" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 자기주식 취득 결정]]></title>
+            </item>
+        
+            <item date="20141031" no="634600" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확정)]]></title>
+            </item>
+        
+            <item date="20141110" no="635757" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 조회공시 요구(풍문 또는 보도)]]></title>
+            </item>
+        
+            <item date="20141110" no="635785" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확정)]]></title>
+            </item>
+        
+            <item date="20141119" no="637249" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 기타 주요경영사항(자율공시)]]></title>
+            </item>
+        
+            <item date="20141210" no="640418" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확정)]]></title>
+            </item>
+        
+            <item date="20141215" no="641746" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 주식명의개서정지(주주명부폐쇄)]]></title>
+            </item>
+        
+            <item date="20150119" no="647331" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 기타 주요경영사항(자율공시)]]></title>
+            </item>
+        
+            <item date="20150122" no="647692" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 단일판매ㆍ공급계약체결]]></title>
+            </item>
+        
+            <item date="20150129" no="648820" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 매출액또는손익구조30%(대규모법인은15%)이상변경]]></title>
+            </item>
+        
+            <item date="20150129" no="649025" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 소송등의판결ㆍ결정(일정금액 이상의 청구)]]></title>
+            </item>
+        
+            <item date="20150213" no="652633" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 주주총회소집결의]]></title>
+            </item>
+        
+            <item date="20150226" no="655005" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) (정정)주주총회소집결의]]></title>
+            </item>
+        
+            <item date="20150302" no="655877" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 단일판매ㆍ공급계약체결]]></title>
+            </item>
+        
+            <item date="20150313" no="660769" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 정기주주총회결과]]></title>
+            </item>
+        
+            <item date="20150401" no="669703" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 단일판매ㆍ공급계약체결]]></title>
+            </item>
+        
+            <item date="20150403" no="670276" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 기타 주요경영사항(자율공시)(기타주요경영사항(자율공시) (단일판매·공급계약 체결 건의 진행사항 공시) )]]></title>
+            </item>
+        
+            <item date="20150428" no="673807" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 조회공시 요구(풍문 또는 보도)]]></title>
+            </item>
+        
+            <item date="20150428" no="673814" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(부인)]]></title>
+            </item>
+        
+            <item date="20150428" no="673918" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 연결재무제표기준영업(잠정)실적(공정공시)]]></title>
+            </item>
+        
+            <item date="20150428" no="673923" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) (정정)단일판매ㆍ공급계약체결]]></title>
+            </item>
+        
+            <item date="20150430" no="674591" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확정)]]></title>
+            </item>
+        
+            <item date="20150518" no="676890" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 기타 주요경영사항(자율공시)(단일판매·공급계약 체결 건의 진행사항 공시)]]></title>
+            </item>
+        
+            <item date="20150604" no="679522" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 단일판매ㆍ공급계약체결]]></title>
+            </item>
+        
+            <item date="20150609" no="680154" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(부인)]]></title>
+            </item>
+        
+            <item date="20150611" no="680599" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 기타 주요경영사항(자율공시)(단일판매·공급계약 체결 건의 진행사항 공시)]]></title>
+            </item>
+        
+            <item date="20150612" no="680724" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 기타 주요경영사항(자율공시)(단일판매·공급계약 체결 건의 진행사항 공시)]]></title>
+            </item>
+        
+            <item date="20150615" no="680934" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 기타 주요경영사항(자율공시)(단일판매·공급계약 체결 건의 진행사항 공시)]]></title>
+            </item>
+        
+            <item date="20150623" no="682190" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) [투자주의]투자경고종목 지정예고(삼성중공우)]]></title>
+            </item>
+        
+            <item date="20150630" no="683291" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 조회공시 요구(풍문 또는 보도)]]></title>
+            </item>
+        
+            <item date="20150630" no="683497" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 단일판매ㆍ공급계약체결]]></title>
+            </item>
+        
+            <item date="20150701" no="683676" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 단일판매ㆍ공급계약체결]]></title>
+            </item>
+        
+            <item date="20150701" no="683774" src="KOSCOM">
+                <title><![CDATA[삼성중공업(주) 기타시장안내(삼성중공우)]]></title>
+            </item>
+        
+    </notice>
+</protocol>
