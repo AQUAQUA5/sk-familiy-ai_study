@@ -1,0 +1,107 @@
+{
+  "2105.11025v1": {
+    "title": "Compressing Heavy-Tailed Weight Matrices for Non-Vacuous Generalization Bounds",
+    "authors": [
+      "John Y. Shin"
+    ],
+    "summary": "Heavy-tailed distributions have been studied in statistics, random matrix\ntheory, physics, and econometrics as models of correlated systems, among other\ndomains. Further, heavy-tail distributed eigenvalues of the covariance matrix\nof the weight matrices in neural networks have been shown to empirically\ncorrelate with test set accuracy in several works (e.g. arXiv:1901.08276), but\na formal relationship between heavy-tail distributed parameters and\ngeneralization bounds was yet to be demonstrated. In this work, the compression\nframework of arXiv:1802.05296 is utilized to show that matrices with heavy-tail\ndistributed matrix elements can be compressed, resulting in networks with\nsparse weight matrices. Since the parameter count has been reduced to a sum of\nthe non-zero elements of sparse matrices, the compression framework allows us\nto bound the generalization gap of the resulting compressed network with a\nnon-vacuous generalization bound. Further, the action of these matrices on a\nvector is discussed, and how they may relate to compression and resilient\nclassification is analyzed.",
+    "pdf_url": "http://arxiv.org/pdf/2105.11025v1",
+    "published": "2021-05-23"
+  },
+  "2102.07071v1": {
+    "title": "Doping: A technique for efficient compression of LSTM models using sparse structured additive matrices",
+    "authors": [
+      "Urmish Thakker",
+      "Paul N. Whatmough",
+      "Zhigang Liu",
+      "Matthew Mattina",
+      "Jesse Beu"
+    ],
+    "summary": "Structured matrices, such as those derived from Kronecker products (KP), are\neffective at compressing neural networks, but can lead to unacceptable accuracy\nloss when applied to large models. In this paper, we propose the notion of\ndoping -- addition of an extremely sparse matrix to a structured matrix. Doping\nfacilitates additional degrees of freedom for a small number of parameters,\nallowing them to independently diverge from the fixed structure. To train LSTMs\nwith doped structured matrices, we introduce the additional parameter matrix\nwhile slowly annealing its sparsity level. However, we find that performance\ndegrades as we slowly sparsify the doping matrix, due to co-matrix adaptation\n(CMA) between the structured and the sparse matrices. We address this over\ndependence on the sparse matrix using a co-matrix dropout regularization (CMR)\nscheme. We provide empirical evidence to show that doping, CMA and CMR are\nconcepts generally applicable to multiple structured matrices (Kronecker\nProduct, LMF, Hybrid Matrix Decomposition). Additionally, results with doped\nkronecker product matrices demonstrate state-of-the-art accuracy at large\ncompression factors (10 - 25x) across 4 natural language processing\napplications with minor loss in accuracy. Doped KP compression technique\noutperforms previous state-of-the art compression results by achieving 1.3 -\n2.4x higher compression factor at a similar accuracy, while also beating strong\nalternatives like pruning and low-rank methods by a large margin (8% or more).\nAdditionally, we show that doped KP can be deployed on commodity hardware using\nthe current software stack and achieve 2.5 - 5.5x inference run-time speed-up\nover baseline.",
+    "pdf_url": "http://arxiv.org/pdf/2102.07071v1",
+    "published": "2021-02-14"
+  },
+  "2210.11420v1": {
+    "title": "Granger Causality for Compressively Sensed Sparse Signals",
+    "authors": [
+      "Aditi Kathpalia",
+      "Nithin Nagaraj"
+    ],
+    "summary": "Compressed sensing is a scheme that allows for sparse signals to be acquired,\ntransmitted and stored using far fewer measurements than done by conventional\nmeans employing Nyquist sampling theorem. Since many naturally occurring\nsignals are sparse (in some domain), compressed sensing has rapidly seen\npopularity in a number of applied physics and engineering applications,\nparticularly in designing signal and image acquisition strategies, e.g.,\nmagnetic resonance imaging, quantum state tomography, scanning tunneling\nmicroscopy, analog to digital conversion technologies. Contemporaneously,\ncausal inference has become an important tool for the analysis and\nunderstanding of processes and their interactions in many disciplines of\nscience, especially those dealing with complex systems. Direct causal analysis\nfor compressively sensed data is required to avoid the task of reconstructing\nthe compressed data. Also, for some sparse signals, such as for sparse temporal\ndata, it may be difficult to discover causal relations directly using available\ndata-driven/ model-free causality estimation techniques. In this work, we\nprovide a mathematical proof that structured compressed sensing matrices,\nspecifically Circulant and Toeplitz, preserve causal relationships in the\ncompressed signal domain, as measured by Granger Causality. We then verify this\ntheorem on a number of bivariate and multivariate coupled sparse signal\nsimulations which are compressed using these matrices. We also demonstrate a\nreal world application of network causal connectivity estimation from sparse\nneural spike train recordings from rat prefrontal cortex.",
+    "pdf_url": "http://arxiv.org/pdf/2210.11420v1",
+    "published": "2022-09-23"
+  },
+  "2506.04208v1": {
+    "title": "Rounding error analysis of randomized CholeskyQR2 for sparse matrices",
+    "authors": [
+      "Haoran Guan",
+      "Yuwei Fan"
+    ],
+    "summary": "This work focuses on rounding error analysis of randomized CholeskyQR2\n(RCholeskyQR2) for sparse matrices. We form RCholeskyQR2 with CholeskyQR2 and\nmatrix sketching in order to accelerate CholeskyQR2 and improve its\napplicability by compressing the input matrix $X \\in \\mathbb{R}^{m\\times n}$.\nIn many real-world applications, the input matrix $X$ is always sparse. In this\nwork, we follow the model of sparse matrices proposed in \\cite{CSparse} and\nprovide an improved rounding error analysis of RCholeskyQR2 for sparse\nmatrices. We define a new matrix norm $\\norm{\\cdot}_{g}$ and use its properties\nin rounding error analysis. $\\norm{\\cdot}_{F}$ and its connections with\nrounding error analysis is also utilized in CholeskyQR for the first time. Our\nanalysis is an improvement compared to that in \\cite{CSparse, error}. We\nprovide the corresponding sufficient conditions for different types of sparse\nmatrices based on the existence of dense columns, together with error bounds of\nboth orthogonality and residual. Numerical experiments demonstrate our findings\nand show the effectiveness of matrix sketching on CholeskyQR2.",
+    "pdf_url": "http://arxiv.org/pdf/2506.04208v1",
+    "published": "2025-06-04"
+  },
+  "1905.07931v1": {
+    "title": "Compressed Learning of Deep Neural Networks for OpenCL-Capable Embedded Systems",
+    "authors": [
+      "Sangkyun Lee",
+      "Jeonghyun Lee"
+    ],
+    "summary": "Deep neural networks (DNNs) have been quite successful in solving many\ncomplex learning problems. However, DNNs tend to have a large number of\nlearning parameters, leading to a large memory and computation requirement. In\nthis paper, we propose a model compression framework for efficient training and\ninference of deep neural networks on embedded systems. Our framework provides\ndata structures and kernels for OpenCL-based parallel forward and backward\ncomputation in a compressed form. In particular, our method learns sparse\nrepresentations of parameters using $\\ell_1$-based sparse coding while\ntraining, storing them in compressed sparse matrices. Unlike the previous\nworks, our method does not require a pre-trained model as an input and\ntherefore can be more versatile for different application environments. Even\nthough the use of $\\ell_1$-based sparse coding for model compression is not\nnew, we show that it can be far more effective than previously reported when we\nuse proximal point algorithms and the technique of debiasing. Our experiments\nshow that our method can produce minimal learning models suitable for small\nembedded devices.",
+    "pdf_url": "http://arxiv.org/pdf/1905.07931v1",
+    "published": "2019-05-20"
+  },
+  "1207.2079v1": {
+    "title": "Compressed Sensing of Approximately-Sparse Signals: Phase Transitions and Optimal Reconstruction",
+    "authors": [
+      "Jean Barbier",
+      "Florent Krzakala",
+      "Marc M\u00e9zard",
+      "Lenka Zdeborov\u00e1"
+    ],
+    "summary": "Compressed sensing is designed to measure sparse signals directly in a\ncompressed form. However, most signals of interest are only \"approximately\nsparse\", i.e. even though the signal contains only a small fraction of relevant\n(large) components the other components are not strictly equal to zero, but are\nonly close to zero. In this paper we model the approximately sparse signal with\na Gaussian distribution of small components, and we study its compressed\nsensing with dense random matrices. We use replica calculations to determine\nthe mean-squared error of the Bayes-optimal reconstruction for such signals, as\na function of the variance of the small components, the density of large\ncomponents and the measurement rate. We then use the G-AMP algorithm and we\nquantify the region of parameters for which this algorithm achieves optimality\n(for large systems). Finally, we show that in the region where the GAMP for the\nhomogeneous measurement matrices is not optimal, a special \"seeding\" design of\na spatially-coupled measurement matrix allows to restore optimality.",
+    "pdf_url": "http://arxiv.org/pdf/1207.2079v1",
+    "published": "2012-07-09"
+  },
+  "1312.0525v2": {
+    "title": "Near Optimal Compressed Sensing of a Class of Sparse Low-Rank Matrices via Sparse Power Factorization",
+    "authors": [
+      "Kiryung Lee",
+      "Yihong Wu",
+      "Yoram Bresler"
+    ],
+    "summary": "Compressed sensing of simultaneously sparse and low-rank matrices enables\nrecovery of sparse signals from a few linear measurements of their bilinear\nform. One important question is how many measurements are needed for a stable\nreconstruction in the presence of measurement noise. Unlike conventional\ncompressed sensing for sparse vectors, where convex relaxation via the\n$\\ell_1$-norm achieves near optimal performance, for compressed sensing of\nsparse low-rank matrices, it has been shown recently Oymak et al. that convex\nprogrammings using the nuclear norm and the mixed norm are highly suboptimal\neven in the noise-free scenario.\n  We propose an alternating minimization algorithm called sparse power\nfactorization (SPF) for compressed sensing of sparse rank-one matrices. For a\nclass of signals whose sparse representation coefficients are fast-decaying,\nSPF achieves stable recovery of the rank-1 matrix formed by their outer product\nand requires number of measurements within a logarithmic factor of the\ninformation-theoretic fundamental limit. For the recovery of general sparse\nlow-rank matrices, we propose subspace-concatenated SPF (SCSPF), which has\nanalogous near optimal performance guarantees to SPF in the rank-1 case.\nNumerical results show that SPF and SCSPF empirically outperform convex\nprogrammings using the best known combinations of mixed norm and nuclear norm.",
+    "pdf_url": "http://arxiv.org/pdf/1312.0525v2",
+    "published": "2013-12-02"
+  },
+  "2409.08699v2": {
+    "title": "A Hierarchical View of Structured Sparsity in Kronecker Compressive Sensing",
+    "authors": [
+      "Yanbin He",
+      "Geethu Joseph"
+    ],
+    "summary": "Kronecker compressed sensing refers to using Kronecker product matrices as\nsparsifying bases and measurement matrices in compressed sensing. This work\nfocuses on the Kronecker compressed sensing problem, encompassing three\nsparsity structures: $(i)$ a standard sparsity model with arbitrarily\npositioned nonzero entries, $(ii)$ a hierarchical sparsity model where nonzero\nentries are concentrated in a few blocks, each with only a subset of nonzero\nentries, and $(iii)$ a Kronecker-supported sparsity model where the support\nvector is a Kronecker product of smaller vectors. We present a hierarchal view\nof Kronecker compressed sensing that explicitly reveals a multiple-level\nsparsity pattern. This framework allows us to utilize the Kronecker structure\nof dictionaries and design a two-stage sparse recovery algorithm for different\nsparsity models. Further, we analyze the restricted isometry property of\nKronecker-structured matrices under different sparsity models. Simulations show\nthat our algorithm offers comparable recovery performance to state-of-the-art\nmethods while significantly reducing runtime.",
+    "pdf_url": "http://arxiv.org/pdf/2409.08699v2",
+    "published": "2024-09-13"
+  },
+  "1707.08208v1": {
+    "title": "Robust Detection of Random Events with Spatially Correlated Data in Wireless Sensor Networks via Distributed Compressive Sensing",
+    "authors": [
+      "Thakshila Wimalajeewa",
+      "Pramod K. Varshney"
+    ],
+    "summary": "In this paper, we exploit the theory of compressive sensing to perform\ndetection of a random source in a dense sensor network. When the sensors are\ndensely deployed, observations at adjacent sensors are highly correlated while\nthose corresponding to distant sensors are less correlated. Thus, the\ncovariance matrix of the concatenated observation vector of all the sensors at\nany given time can be sparse where the sparse structure depends on the network\ntopology and the correlation model. Exploiting the sparsity structure of the\ncovariance matrix, we develop a robust nonparametric detector to detect the\npresence of the random event using a compressed version of the data collected\nat the distributed nodes. We employ the multiple access channel (MAC) model\nwith distributed random projections for sensors to transmit observations so\nthat a compressed version of the observations is available at the fusion\ncenter. Detection is performed by constructing a decision statistic based on\nthe covariance information of uncompressed data which is estimated using\ncompressed data. The proposed approach does not require any knowledge of the\nnoise parameter to set the threshold, and is also robust when the distributed\nrandom projection matrices become sparse.",
+    "pdf_url": "http://arxiv.org/pdf/1707.08208v1",
+    "published": "2017-07-07"
+  },
+  "2303.16106v1": {
+    "title": "Common Subexpression-based Compression and Multiplication of Sparse Constant Matrices",
+    "authors": [
+      "Emre Bilgili",
+      "Arda Yurdakul"
+    ],
+    "summary": "In deep learning inference, model parameters are pruned and quantized to\nreduce the model size. Compression methods and common subexpression (CSE)\nelimination algorithms are applied on sparse constant matrices to deploy the\nmodels on low-cost embedded devices. However, the state-of-the-art CSE\nelimination methods do not scale well for handling large matrices. They reach\nhours for extracting CSEs in a $200 \\times 200$ matrix while their matrix\nmultiplication algorithms execute longer than the conventional matrix\nmultiplication methods. Besides, there exist no compression methods for\nmatrices utilizing CSEs. As a remedy to this problem, a random search-based\nalgorithm is proposed in this paper to extract CSEs in the column pairs of a\nconstant matrix. It produces an adder tree for a $1000 \\times 1000$ matrix in a\nminute. To compress the adder tree, this paper presents a compression format by\nextending the Compressed Sparse Row (CSR) to include CSEs. While compression\nrates of more than $50\\%$ can be achieved compared to the original CSR format,\nsimulations for a single-core embedded system show that the matrix\nmultiplication execution time can be reduced by $20\\%$.",
+    "pdf_url": "http://arxiv.org/pdf/2303.16106v1",
+    "published": "2023-03-26"
+  }
+}
